@@ -74,7 +74,8 @@ print ("My name is " + name + " and I am " + str(age) + " years old.")  # Output
 print(f"My name is {name} and I am {age} years old.")  # Output: My name is Alice and I am 25 years old.
 print(f"My name is {name} and I am {age} years old and I am a {skill} developer.")  # Output: My name is Alice and I am 25 years old.
 
-
+// Escape characters
+str = r""
 
 text = "  Python Programming  "
 
