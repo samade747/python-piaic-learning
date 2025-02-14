@@ -4,8 +4,17 @@
 # mutlilevel inheritance = inherit from a class that inherits from another class
                             # C(B) <- B(A) <- A
 class Animal:
+    def __init__(self, name):
+        self.name = name
+
     def eat(self):
-        print('The animal is eating')
+        print('{self.name} is eating')
+
+    def sleep(self):
+        print('{self.name} is sleeping')
+
+
+
 
 class Prey(Animal):
     def flee(self):
@@ -27,8 +36,8 @@ class Hawk(Predator):
 class Fish(Prey, Predator):
     pass
 
-rabbit = Rabbit()
-hawk = Hawk()
-fish = Fish()
+rabbit = Rabbit("Bunny")
+hawk = Hawk("Hawky")
+fish = Fish("Fishy")
 
-hawk.flee()
+fish.eat()
