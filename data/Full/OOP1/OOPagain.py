@@ -45,3 +45,6 @@ class Car:
 
 
 car1 = Car("Toyota", 2019, "Red", True)
+
+print(car1.model)
+print(car1.year)    
