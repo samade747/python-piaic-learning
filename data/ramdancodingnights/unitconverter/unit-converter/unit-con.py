@@ -22,7 +22,7 @@ def convert_unit(value, unit_from, unit_to):
 
 st.title("Unit Converter by samad")
 
-value = st.number_input("Enter the value to convert")
+value = st.number_input("Enter the value to convert", min_value=1.0, step=1.0)
 
 unit_from = st.selectbox(" convert from", ["meters", "kilometers", "grams", "kilograms"])
 unit_to = st.selectbox(" convert to", ["meters", "kilometers", "grams", "kilograms"])
