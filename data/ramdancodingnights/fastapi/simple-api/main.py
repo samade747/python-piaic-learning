@@ -32,7 +32,24 @@ side_hustles = [
 
 money_qoutes = [
     "Money is a terrible thing. If you have it, you can afford anything",
-    "Money is a terrible thing. If you have it, you can afford anything",
-    "Money is a terrible thing. If you have it, you can afford anything",
+    "formal education is the most expensive thing in the world",
+    "Education is the most powerful weapon which you can use to change the world",
+    "The more you learn, the more you earn",
 
 ]
+
+
+# specific url to get data  from
+@app.get("/side_hustles")
+def get_side_hustles(apikey: str):
+    if apikey != "123456789":
+        return ("Invalid API key")
+    return ("side_hustles", random.choice(side_hustles))
+
+@app.get("/money_qoutes")
+def get_money_qoutes(apikey: str):
+    if apikey != "123456789":
+        return ("Invalid API key")
+    return ("money_qoutes", random.choice(money_qoutes))
+
+
