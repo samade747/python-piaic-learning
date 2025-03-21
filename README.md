@@ -24,3 +24,8 @@ https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclasspro
 
 https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/weatherapp/frontend/app.py
 
+
+Assignments 1 to 6
+
+https://github.com/samade747/python-piaic-learning/tree/main/data/assignmentsprojects
+
