@@ -11,3 +11,16 @@ https://samad-app-generatorby-python-7w5btl.streamlit.app/
 
 
 Project 4 Assignments: GitHub URL
+Online Class Projects 
+
+https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/BinarySearch/binary.py
+
+https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/QRcode/qrcode.py
+
+https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/Remainingbulkfiles/bulk.py
+
+
+https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/Tictac/TicTacToe.py
+
+https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/weatherapp/frontend/app.py
+
