@@ -22,6 +22,8 @@ homework_projects
 Assignments 00 to 05  
 
 00_intro_python  
+https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/00_intro_python/intro.py  
+
 
 01_expressions  
 
