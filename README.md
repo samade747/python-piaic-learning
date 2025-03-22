@@ -18,7 +18,8 @@ https://linktr.ee/samade747
 
 homework_projects
 
-(00_intro_python)
+(00_intro_python)  
+
 https://github.com/samade747/python-piaic-learning/tree/main/data/homework_projects  
 
 https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/02_agreement_bot.md/agg.py  
