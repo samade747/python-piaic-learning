@@ -1,6 +1,5 @@
   
-linkedin  
-www.linkedin.com/in/samaddeveloper
+linkedin www.linkedin.com/in/samaddeveloper
 
 twitter
 https://x.com/samaddeveloper  
