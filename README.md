@@ -1,5 +1,15 @@
 
 ***samad python projects***  
+linkedin  
+https://www.linkedin.com/in/abdul-samad-7a294766/  
+
+twitter
+https://x.com/samaddeveloper  
+
+linktree
+https://linktr.ee/samade747
+
+ 
 
 
     
