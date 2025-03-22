@@ -12,6 +12,7 @@ Assignments 00 to 05
 https://github.com/samade747/python-piaic-learning/blob/main/data/Full/List%26set%26tuples/listsettuples.py
 
 03_if_statements  
+https://github.com/samade747/python-piaic-learning/blob/main/data/Full/if%26else/if.py
 
 04_dictionaries  
 
