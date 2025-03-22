@@ -1,4 +1,4 @@
-Project 4 Assignments
+****Project 4 Assignments***
 
 homework_projects  
 
@@ -21,7 +21,7 @@ Assignments 00 to 05
 07_information_flow 
 
 
-**Online Class Projects  **
+***Online Class Projects***
 
 01_basics  
 
@@ -57,7 +57,7 @@ https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclasspro
      
 
 
-Compulsory Project to be Submitted by the Students  
+***Compulsory Project to be Submitted by the Students***  
 
 Project 1: Mad libs Python Project
 https://github.com/samade747/python-piaic-learning/tree/main/data/assignmentsprojects/madilbs  
