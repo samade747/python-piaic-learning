@@ -21,10 +21,13 @@ Assignments 00 to 05
 07_information_flow 
 
 
-Online Class Projects
+**Online Class Projects  **
+
 01_basics  
 
+
 02_intermediate  
+
 
 3) Online Class Project 3: QR code encoder / decoder Python Project
 https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/QRcode/qrcode.py
