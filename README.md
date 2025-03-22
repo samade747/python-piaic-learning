@@ -17,7 +17,9 @@ https://linktr.ee/samade747
 
 ****Project 4 Assignments*** (https://github.com/panaversity/learn-modern-ai-python/tree/main/CLASS_PROJECTS/04_assignments)
 
-homework_projects   
+homework_projects
+
+(00_intro_python)
 https://github.com/samade747/python-piaic-learning/tree/main/data/homework_projects  
 
 https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/02_agreement_bot.md/agg.py  
@@ -29,6 +31,9 @@ https://github.com/samade747/python-piaic-learning/blob/main/data/homework_proje
 https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/05_triangle_perimeter.md/para.py  
 
 https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/06_square_number.md/sq.py
+
+
+(01_expressions)
 
 
 
