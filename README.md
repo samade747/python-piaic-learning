@@ -26,7 +26,9 @@ https://github.com/samade747/python-piaic-learning/blob/main/data/homework_proje
 
 https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/04_how_old_are_they.md/old.py  
 
-https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/05_triangle_perimeter.md/para.py
+https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/05_triangle_perimeter.md/para.py  
+
+https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/06_square_number.md/sq.py
 
 
 
