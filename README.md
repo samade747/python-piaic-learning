@@ -133,7 +133,4 @@ https://samad-app-generatorby-python-7w5btl.streamlit.app/
 
 
 
-Assignments 1 to 6
-
-https://github.com/samade747/python-piaic-learning/tree/main/data/assignmentsprojects
 
