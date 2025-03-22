@@ -1,15 +1,15 @@
 Project 4 Assignments
 
-homework_projects
-Assignments 00 to 05
-00_intro_python 
-01_expressions
-02_lists
-03_if_statements
-04_dictionaries
-05_loops_control_flow
-06_functions
-07_information_flow
+homework_projects \n
+Assignments 00 to 05 \n
+00_intro_python  \n
+01_expressions \n
+02_lists \n
+03_if_statements \n
+04_dictionaries \n
+05_loops_control_flow \n
+06_functions \n
+07_information_flow \n
 
 
 Online Class Projects
