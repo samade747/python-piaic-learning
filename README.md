@@ -1,3 +1,20 @@
+  
+linkedin  
+www.linkedin.com/in/samaddeveloper
+
+twitter
+https://x.com/samaddeveloper  
+
+linktree
+https://linktr.ee/samade747
+
+ 
+
+
+    
+
+***samad python projects***  
+
 ****Project 4 Assignments***
 
 homework_projects  
@@ -8,9 +25,11 @@ Assignments 00 to 05
 
 01_expressions  
 
-02_lists   
+02_lists  
+https://github.com/samade747/python-piaic-learning/blob/main/data/Full/List%26set%26tuples/listsettuples.py
 
 03_if_statements  
+https://github.com/samade747/python-piaic-learning/blob/main/data/Full/if%26else/if.py
 
 04_dictionaries  
 
@@ -139,6 +158,7 @@ https://samad-app-generatorby-python-7w5btl.streamlit.app/
 
 
 
+   
 
 
 
