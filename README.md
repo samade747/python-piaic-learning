@@ -1,5 +1,4 @@
-
-***samad python projects***  
+  
 linkedin  
 www.linkedin.com/in/samaddeveloper
 
@@ -14,6 +13,7 @@ https://linktr.ee/samade747
 
     
 
+***samad python projects***
 ****Project 4 Assignments***
 
 homework_projects  
