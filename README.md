@@ -1,7 +1,7 @@
 
 ***samad python projects***  
 linkedin  
-https://www.linkedin.com/in/abdul-samad-7a294766/  
+www.linkedin.com/in/samaddeveloper
 
 twitter
 https://x.com/samaddeveloper  
