@@ -31,7 +31,7 @@ https://github.com/samade747/python-piaic-learning/blob/main/data/homework_proje
 
 https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/06_square_number.md/sq.py
 
-01_expressions  
+(01_expressions)
 
 02_lists  
 https://github.com/samade747/python-piaic-learning/blob/main/data/Full/List%26set%26tuples/listsettuples.py
