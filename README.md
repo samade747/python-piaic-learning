@@ -2,37 +2,56 @@ Project 4 Assignments
 
 homework_projects  
 
-Assignments 00 to 05 
+Assignments 00 to 05  
+
 00_intro_python  
-01_expressions
-02_lists 
-03_if_statements 
-04_dictionaries
-05_loops_control_flow 
-06_functions 
+
+01_expressions  
+
+02_lists   
+
+03_if_statements  
+
+04_dictionaries  
+
+05_loops_control_flow  
+
+06_function  
+
 07_information_flow 
 
 
 Online Class Projects
-01_basics 
-02_intermediate
+01_basics  
+
+02_intermediate  
+
 3) Online Class Project 3: QR code encoder / decoder Python Project
 https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/QRcode/qrcode.py
 
-4) Online Class Project 4: Tic-Tac-Toe Python Project
+
+5) Online Class Project 4: Tic-Tac-Toe Python Project
 https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/Tictac/TicTacToe.py
 
-5) Online Class Project 5: Binary Search Python Project 
+
+7) Online Class Project 5: Binary Search Python Project 
 https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/BinarySearch/binary.py
 
-6) Online Class Project 6: Bulk File Re-namer Python Project
+
+) Online Class Project 6: Bulk File Re-namer Python Project
 https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/Remainingbulkfiles/bulk.py
 
-7) Online Class Project 7: Weather Program Python Project
+
+) Online Class Project 7: Weather Program Python Project
 https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/weatherapp/frontend/app.py
 
-8) Online Class Project 8: Streamlit Crash Course: Build Data-Driven Python Web Apps in Minutes! (Beginner Friendly Tutorial)
-9) Online Class Project 9: Python Streamlit Web App - Country Information Cards
+
+ Online Class Project 8: Streamlit Crash Course: Build Data-Driven Python Web Apps in Minutes! (Beginner Friendly Tutorial)
+ 
+ Online Class Project 9: Python Streamlit Web App - Country Information Cards  
+
+
+     
 
 
 Compulsory Project to be Submitted by the Students
