@@ -1,7 +1,8 @@
 Project 4 Assignments
 
-homework_projects  < br / > 
-Assignments 00 to 05 < br / >
+homework_projects  
+
+Assignments 00 to 05 
 00_intro_python  
 01_expressions
 02_lists 
