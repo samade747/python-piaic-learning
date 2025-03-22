@@ -17,7 +17,18 @@ https://linktr.ee/samade747
 
 ****Project 4 Assignments***
 
-homework_projects  
+homework_projects   
+https://github.com/samade747/python-piaic-learning/tree/main/data/homework_projects  
+
+https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/02_agreement_bot.md/agg.py  
+
+https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/03_fahrenheit_to_celsius.md/fc.py  
+
+https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/04_how_old_are_they.md/old.py  
+
+https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/05_triangle_perimeter.md/para.py
+
+
 
 Assignments 00 to 05  
 
