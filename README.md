@@ -8,7 +8,8 @@ Assignments 00 to 05
 
 01_expressions  
 
-02_lists   
+02_lists  
+https://github.com/samade747/python-piaic-learning/blob/main/data/Full/List%26set%26tuples/listsettuples.py
 
 03_if_statements  
 
