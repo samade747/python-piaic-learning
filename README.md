@@ -15,7 +15,7 @@ https://linktr.ee/samade747
 
 ***samad python projects***  
 
-****Project 4 Assignments***
+****Project 4 Assignments*** (https://github.com/panaversity/learn-modern-ai-python/tree/main/CLASS_PROJECTS/04_assignments)
 
 homework_projects   
 https://github.com/samade747/python-piaic-learning/tree/main/data/homework_projects  
