@@ -32,17 +32,6 @@ https://github.com/samade747/python-piaic-learning/blob/main/data/homework_proje
 
 https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/06_square_number.md/sq.py
 
-
-(01_expressions)
-
-
-
-Assignments 00 to 05  
-
-00_intro_python  
-https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/00_intro_python/intro.py  
-
-
 01_expressions  
 
 02_lists  
