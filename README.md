@@ -79,7 +79,10 @@ https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclasspro
 
 10) Online Class Project 8: Streamlit Crash Course: Build Data-Driven Python Web Apps in Minutes! (Beginner Friendly Tutorial)
  
-11) Online Class Project 9: Python Streamlit Web App - Country Information Cards  
+11) Online Class Project 9: Python Streamlit Web App - Country Information Cards
+
+https://samad-cardspy.streamlit.app/
+https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclassprojects/countrycards/cards.py
 
 
      
