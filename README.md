@@ -32,29 +32,41 @@ https://github.com/samade747/python-piaic-learning/blob/main/data/homework_proje
 
 https://github.com/samade747/python-piaic-learning/blob/main/data/homework_projects/06_square_number.md/sq.py
 
-(01_expressions)
+(01_expressions)  
+
+https://github.com/samade747/python-piaic-learning
 
 02_lists  
+https://github.com/samade747/python-piaic-learning  
+
 https://github.com/samade747/python-piaic-learning/blob/main/data/Full/List%26set%26tuples/listsettuples.py
 
 03_if_statements  
+https://github.com/samade747/python-piaic-learning  
+
 https://github.com/samade747/python-piaic-learning/blob/main/data/Full/if%26else/if.py
 
 04_dictionaries  
+https://github.com/samade747/python-piaic-learning
 
 05_loops_control_flow  
+https://github.com/samade747/python-piaic-learning
 
 06_function  
+https://github.com/samade747/python-piaic-learning
 
-07_information_flow 
+07_information_flow  
+https://github.com/samade747/python-piaic-learning
 
 
 ***Online Class Projects***
 
-01_basics  
+01_basics   
+https://github.com/samade747/python-piaic-learning
 
 
 02_intermediate  
+https://github.com/samade747/python-piaic-learning
 
 
 3) Online Class Project 3: QR code encoder / decoder Python Project
@@ -78,8 +90,10 @@ https://github.com/samade747/python-piaic-learning/blob/main/data/onlineclasspro
 
 
 10) Online Class Project 8: Streamlit Crash Course: Build Data-Driven Python Web Apps in Minutes! (Beginner Friendly Tutorial)
+
+  https://github.com/samade747/python-piaic-learning
  
-11) Online Class Project 9: Python Streamlit Web App - Country Information Cards
+12) Online Class Project 9: Python Streamlit Web App - Country Information Cards
 
 https://samad-cardspy.streamlit.app/  
 
