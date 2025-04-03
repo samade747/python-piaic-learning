@@ -1,3 +1,5 @@
+![Profile Views](https://komarev.com/ghpvc/?username=samade747/python-piaic-learning&style=flat-square)
+
   
 linkedin www.linkedin.com/in/samaddeveloper
 
