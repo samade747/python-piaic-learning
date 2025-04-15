@@ -251,3 +251,180 @@ names.append("Qasim")# add element in last
 
 print(names)
 ['a', 'b', 'Sir Zia', 'Sir Inam', 'Qasim']
+
+# >>>>>>>>
+
+names : list[str] = ['a','b','c','d']
+
+print(names)
+
+names.insert(1, "Qasim") # insert on perticular postion
+
+print(names)
+['a', 'b', 'c', 'd']
+['a', 'Qasim', 'b', 'c', 'd']
+
+
+# >>>>>>>>
+
+a : list[str] = ['a','b','c']
+b = a
+
+print(a)
+print(b)
+['a', 'b', 'c']
+['a', 'b', 'c']
+
+# >>>>>>>>
+a : list[str] = ['a','b','c']
+b = a # shallow copy
+print(a)
+print(b)
+
+b[0] = 'pakistan' # change only b variable but both variable updated
+
+print(a)
+print(b)
+['a', 'b', 'c']
+['a', 'b', 'c']
+['pakistan', 'b', 'c']
+['pakistan', 'b', 'c']
+
+# >>>>>>>>
+
+a : list[str] = ['a','b','c']
+b = a.copy() # Deep copy
+print("a",a)
+print("b",b)
+
+b[0] = 'pakistan' # change only b variable but both variable updated
+
+print("a",a)
+print("b",b)
+a ['a', 'b', 'c']
+b ['a', 'b', 'c']
+a ['a', 'b', 'c']
+b ['pakistan', 'b', 'c']
+
+# >>>>>>>>
+
+# count
+names : list[str] = ['a','a','a','b','c','c']
+print(names.count("c"))
+print(names.count("a"))
+2
+3
+
+# >>>>>>>>
+
+names : list[str] = ["Sir Zia","Muhammad Qasim"] # GenAI founder members
+
+new_faculty_members : list[str] = ['Sir Inam',"Dr Noman"]
+
+names.append(new_faculty_members)
+
+names
+# ['Sir Zia', 'Muhammad Qasim', ['Sir Inam', 'Dr Noman']]
+
+# >>>>>>>>
+
+names : list[str] = ["Sir Zia","Muhammad Qasim"] # GenAI founder members
+
+new_faculty_members : list[str] = ['Sir Inam',"Dr Noman"]
+
+names.extend(new_faculty_members)
+
+names
+['Sir Zia', 'Muhammad Qasim', 'Sir Inam', 'Dr Noman']
+
+# >>>>>>>>
+
+names : list[str] = ["Sir Zia","Muhammad Qasim",'Sir Inam',"Dr Noman"] # GenAI founder members
+
+
+del names[1:3]
+
+names
+['Sir Zia', 'Dr Noman']
+
+# >>>>>>>>
+
+names :list[str] = ['Sir Zia', 'Muhammad Qasim', 'Sir Inam', 'Dr Noman']
+
+names.remove("Muhammad Qasim") # remove with text value
+
+names
+['Sir Zia', 'Sir Inam', 'Dr Noman']
+
+# >>>>>>>>
+
+
+names :list[str] = ['Sir Zia', 'Muhammad Qasim', 'Sir Inam', 'Dr Noman']
+
+names.index("Muhammad Qasim") # 1
+1
+
+# >>>>>>>>
+
+names :list[str] = ['Sir Zia', 'Muhammad Qasim', 'Sir Inam', 'Dr Noman',"Muhammad Qasim"]
+
+names.index("Muhammad Qasim") # 1
+1
+
+# >>>>>>>>
+
+names :list[str] = ['Sir Zia', 'Muhammad Qasim', 'Sir Inam', 'Dr Noman',"Muhammad Qasim"]
+
+names.index("Muhammad Qasim",2) # 1
+4
+
+
+# >>>>>>>>
+
+names :list[str] = list("ACBDEF")
+print(names)
+names.reverse() #in-memory = change real data
+print(names)
+['A', 'C', 'B', 'D', 'E', 'F']
+['F', 'E', 'D', 'B', 'C', 'A']
+
+# >>>>>>>>
+
+names :list[str] = list("ACBDEF")
+print(names)
+names.sort() #in-memory = change real data sort
+print(names)
+['A', 'C', 'B', 'D', 'E', 'F']
+# ---------------------------------------------------------------------------
+# AttributeError                            Traceback (most recent call last)
+# Cell In[73], line 3
+#       1 names :list[str] = list("ACBDEF")
+#       2 print(names)
+# ----> 3 names.sort().reverse() #in-memory = change real data sort
+#       4 print(names)
+
+# AttributeError: 'NoneType' object has no attribute 'reverse'
+
+# >>>>>>>>
+
+names :list[str] = list("ACBDEF")
+print(names)
+names.sort(reverse=True) #in-memory = change real data sort
+print(names)
+['A', 'C', 'B', 'D', 'E', 'F']
+['F', 'E', 'D', 'C', 'B', 'A']
+
+names :list[str] = list("ACBDEF")
+print(len(names))
+names[25]
+6
+# ---------------------------------------------------------------------------
+# IndexError                                Traceback (most recent call last)
+# Cell In[70], line 3
+#       1 names :list[str] = list("ACBDEF")
+#       2 print(len(names))
+# ----> 3 names[25]
+
+# IndexError: list index out of range
+
+# >>>>>>>>
