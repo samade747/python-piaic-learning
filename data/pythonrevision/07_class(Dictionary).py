@@ -467,3 +467,60 @@ for v in data.values():
 # MSDS
 
 #  >>>>>>>>
+
+from typing import Dict, Union, Optional
+import pprint
+
+
+Key = Union[int,str] # create custom type
+Value = Union[int, str, list, dict, tuple, set]
+
+data : Dict[Key,Value] = {
+                        "fname":"Muhammad Aslam",
+                        "name":"Muhammad Qasim",
+                        "education": "MSDS"}
+
+
+print(data.keys()) # keys
+print(data.values()) # values
+print(data.items())
+
+for k,v in data.items():
+    print(k,v)
+dict_keys(['fname', 'name', 'education'])
+dict_values(['Muhammad Aslam', 'Muhammad Qasim', 'MSDS'])
+dict_items([('fname', 'Muhammad Aslam'), ('name', 'Muhammad Qasim'), ('education', 'MSDS')])
+fname Muhammad Aslam
+name Muhammad Qasim
+education MSDS
+
+#  >>>>>>>>
+
+{v:k for k,v in data.items()}
+{'Muhammad Aslam': 'fname', 'Muhammad Qasim': 'name', 'MSDS': 'education'}
+
+#  >>>>>>>>
+
+
+a : int = 7
+b : int = 9
+
+a, b = b, a # shuffle
+
+print(a,b)
+9 7
+
+
+#  >>>>>>>>
+
+keys : list[str] = ['id','name','fname','course']
+
+data : dict[Key,Value] = {}
+
+print(data)
+
+data = data.fromkeys(keys) # inline
+
+print(data)
+{}
+{'id': None, 'name': None, 'fname': None, 'course': None}
