@@ -390,3 +390,156 @@ for n in range(1,11):
 # 2 X 8 = 16
 # 2 X 9 = 18
 # 2 X 10 = 20
+
+#  >>>>>>>>
+
+squares:list[int] = []
+for value in range(1, 11):
+    square = value ** 2
+    squares.append(square)
+print(squares)
+
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+#  >>>>>>>>
+
+
+list(range(1,11))
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+#  >>>>>>>>
+
+for i in range(1,11):
+    print(i**2)
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+
+
+
+#  >>>>>>>>
+
+'line1'
+'line2'
+'line3' # always return last line
+'line3'
+
+#  >>>>>>>>
+
+[i**2 for i in range(1,11)]
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+
+#  >>>>>>>>
+
+digits:list[int] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+print(digits)
+print(max(digits))
+print(min(digits))
+print(sum(digits))
+
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+9
+0
+45
+
+#  >>>>>>>>
+
+
+my_foods = ['pizza', 'falafel', 'carrot cake'] 
+friend_foods = my_foods[:] # deep copy
+
+print(my_foods)
+print(friend_foods)
+
+friend_foods[0] = "Tikka"
+
+print(my_foods)
+print(friend_foods)
+
+['pizza', 'falafel', 'carrot cake']
+['pizza', 'falafel', 'carrot cake']
+['pizza', 'falafel', 'carrot cake']
+['Tikka', 'falafel', 'carrot cake']
+
+
+#  >>>>>>>>
+
+# Tuples
+
+
+names:tuple[str] = ('A',"B",'C')
+print(names[0])
+print(names[0:2])
+
+
+A
+('A', 'B')
+
+#  >>>>>>>>
+
+names:tuple[str] = ('A',"B",'C')
+
+names[0] = "Pakistan"
+
+# KeyError: 'tuple' object does not support item assignment
+
+#  >>>>>>>>
+
+from typing import Any
+data : tuple[Any] = ("A",[1,2,3], True)
+
+print(data)
+
+('A', [1, 2, 3], True)
+
+
+#  >>>>>>>>
+
+from typing import Any
+data : tuple[Any] = ("A",[1,2,3], True)
+
+print(data)
+('A', [1, 2, 3], True)
+
+#  >>>>>>>>
+
+data : tuple[Any] = ("A",[1,2,3], True)
+
+print(data[1])
+data[1].append(20)
+print(data)
+
+[1, 2, 3]
+('A', [1, 2, 3, 20], True)
+
+#  >>>>>>>>
+
+a  = input("abc") # return string type
+print(type(a))
+print(a)
+
+<class 'str'>
+123
+
+#  >>>>>>>>
+
+
+sorted([7,8,1,3])
+[1, 3, 7, 8]
+
+
+#  >>>>>>>>
+sorted([7,8,1,3], reverse=True)
+[8, 7, 3, 1]
+
+#  >>>>>>>>
