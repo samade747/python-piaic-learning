@@ -435,44 +435,109 @@ elif age < 18:
     print("Your admission cost is $25.")
 else:
       print("Your admission cost is $40.")
-Your admission cost is $25.
+# Your admission cost is $25.
 
 
 #  >>>>>>>>
 
+requested_toppings : list[str] = ['mushrooms', 'extra cheese']
 
+if 'mushrooms' in requested_toppings:
+      print("Adding mushrooms.")
+    
+if 'pepperoni' in requested_toppings: 
+    print("Adding pepperoni.")
+    
+if 'extra cheese' in requested_toppings:
+    print("Adding extra cheese.")
+    
+print("\nFinished making your pizza!")
+# Adding mushrooms.
+# Adding extra cheese.
 
-
-
-#  >>>>>>>>
-
-
-
-
-
-
-#  >>>>>>>>
-
-
-
-
-
-#  >>>>>>>>
-
-
-
+# Finished making your pizza!
 
 
 
 #  >>>>>>>>
 
+requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
+for requested_topping in requested_toppings:
+    if requested_topping == 'green peppers':
+        print("Sorry, we are out of green peppers right now.")
+    else:
+        print(f"Adding {requested_topping}.")
+print("\nFinished making your pizza!")
+
+# Adding mushrooms.
+# Sorry, we are out of green peppers right now.
+# Adding extra cheese.
+
+# Finished making your pizza!
+
 
 
 
 #  >>>>>>>>
 
+requested_toppings = []
+
+if requested_toppings:
+    for requested_topping in requested_toppings:
+        print(f"Adding {requested_topping}.")
+    print("\nFinished making your pizza!")
+else:
+    print("Are you sure you want a plain pizza?")
+# Are you sure you want a plain pizza?
 
 
+
+#  >>>>>>>>
+
+available_toppings:list[str] = ['mushrooms', 'olives', 'green peppers',
+                        'pepperoni', 'pineapple', 'extra cheese']
+
+requested_toppings:list[str] = ['mushrooms', 'french fries', 'extra cheese'] # user input
+
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print(f"Adding {requested_topping}.")
+    else:
+        print(f"Sorry, we don't have {requested_topping}.")
+print("\nFinished making your pizza!")
+
+# Adding mushrooms.
+# Sorry, we don't have french fries.
+# Adding extra cheese.
+
+# Finished making your pizza!
+
+
+
+
+#  >>>>>>>>
+
+input("Enter ',' seprated value for topping").split(",")
+['abc', 'xyz', ' pakistan', ' 123']
+
+
+#  >>>>>>>>
+
+
+user_name : str = input("Enter user id: \t")
+user_passwrod : str = input("Enter password:\t")
+
+
+if user_name == 'admin' and user_passwrod == 'admin':
+    print("sent otp on you registered number")
+    otp : str = input("Please inter otp")
+    if otp == '123':
+        print("Welcom PIAIC")
+else:
+    print("Invalid user or password")
+
+# sent otp on you registered number
+# Welcom PIAIC
 
 
 
