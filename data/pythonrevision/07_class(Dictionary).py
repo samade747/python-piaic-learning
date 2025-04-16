@@ -437,6 +437,33 @@ for k in data.keys():
 #  >>>>>>>>
 
 
+from typing import Dict, Union, Optional
+import pprint
 
+
+Key = Union[int,str] # create custom type
+Value = Union[int, str, list, dict, tuple, set]
+
+data : Dict[Key,Value] = {
+                        "fname":"Muhammad Aslam",
+                        "name":"Muhammad Qasim",
+                        "education": "MSDS"}
+
+
+print(data.keys()) # keys
+print(data.values()) # values
+print(data.items())
+
+for v in data.values():
+    print(v)
+
+
+# [i for i in dir(data) if "__" not in i]
+# dict_keys(['fname', 'name', 'education'])
+# dict_values(['Muhammad Aslam', 'Muhammad Qasim', 'MSDS'])
+# dict_items([('fname', 'Muhammad Aslam'), ('name', 'Muhammad Qasim'), ('education', 'MSDS')])
+# Muhammad Aslam
+# Muhammad Qasim
+# MSDS
 
 #  >>>>>>>>
