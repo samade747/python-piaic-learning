@@ -425,12 +425,12 @@ for k in data.keys():
 
 
 # [i for i in dir(data) if "__" not in i]
-dict_keys(['fname', 'name', 'education'])
-dict_values(['Muhammad Aslam', 'Muhammad Qasim', 'MSDS'])
-dict_items([('fname', 'Muhammad Aslam'), ('name', 'Muhammad Qasim'), ('education', 'MSDS')])
-fname
-name
-education
+# dict_keys(['fname', 'name', 'education'])
+# dict_values(['Muhammad Aslam', 'Muhammad Qasim', 'MSDS'])
+# dict_items([('fname', 'Muhammad Aslam'), ('name', 'Muhammad Qasim'), ('education', 'MSDS')])
+# fname
+# name
+# education
 
 
 
