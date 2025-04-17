@@ -165,9 +165,55 @@ data
  100]
 
 #  >>>>>>>>
+
+data:list[int] = filter(lambda x:x%2==0 ,range(1,101))
+
+print(next(data))
+print(next(data))
+2
+4
 #  >>>>>>>>
+
+# Generator Function
+# iterate on element one by one
+# stop after each iteration
+# remember old iteration value (last iterate value)
+# next iterate
+# go farward from last iterate value
+
+
 #  >>>>>>>>
+
+# Generator Function
+def my_range(start:int , end:int , step: int=1):
+    for i in range(start,end+1,step):
+        yield i # Generator fucntion
+
+
+a = my_range(1,10)
+print(a)
+print(list(a))
+<generator object my_range at 0x11b4545e0>
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
 #  >>>>>>>>
+
+a = my_range(1,10)
+print(a)
+print(next(a))
+print(next(a))
+print(next(a))
+print("Pakistan")
+print(next(a))
+<generator object my_range at 0x11b454310>
+1
+2
+3
+Pakistan
+4
+
+
 #  >>>>>>>>
 #  >>>>>>>>
 #  >>>>>>>>
