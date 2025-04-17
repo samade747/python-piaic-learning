@@ -215,7 +215,39 @@ Pakistan
 
 
 #  >>>>>>>>
+
+from collections.abc import Iterator
+
+def my_range(start:int , end:int , step: int=1)->Iterator[int]:
+    for i in range(start,end+1,step):
+        yield i # Generator fucntion
+
+
+iterator_variable = my_range(1,10)
+
+print(next(iterator_variable))
+print(next(iterator_variable))
+1
+2
 #  >>>>>>>>
+
+from collections.abc import Iterator
+
+def my_range(start:int , end:int , step: int=1)->Iterator[int]:
+    for i in range(start,end+1,step):
+        yield i # Generator fucntion
+
+
+iterator_variable : Iterator[int] = my_range(1,10)
+
+print(next(iterator_variable))
+print(next(iterator_variable))
+
+print(type(iterator_variable))
+1
+2
+<class 'generator'>
+
 #  >>>>>>>>
 #  >>>>>>>>
 #  >>>>>>>>
