@@ -303,12 +303,101 @@ dir(a)
  'throw']
 #  >>>>>>>>
 
+
+pass unlimited arguments
+def abc(*nums):
+    print(nums, type(nums))
+    total = 0
+    for n in nums:
+        total += n
+
+    return total
+
+
+abc(1,2,3,3,5,6)
+(1, 2, 3, 3, 5, 6) <class 'tuple'>
+20
+
+
 #  >>>>>>>>
+
+from typing import Tuple
+
+def greet(*names: Tuple[str, ...]) -> None:
+    """
+    This function greets all persons in the names tuple.
+    """
+    for name in names:
+        print("Hello", name)
+
+greet("Monica", "Luke", "Steve", "John","Sir Zia", "Muhammad Qasim")
+Hello Monica
+Hello Luke
+Hello Steve
+Hello John
+Hello Sir Zia
+Hello Muhammad Qasim
+
+
 #  >>>>>>>>
+
+from typing import Tuple
+
+def greet(*names: Tuple[str, ...]) -> None:
+    """
+    This function greets all persons in the names tuple.
+    """
+    for name in names:
+        print("Hello", name)
+
+greet("Monica", "Luke", "Steve", "John","Sir Zia", "Muhammad Qasim")
+# Hello Monica
+# Hello Luke
+# Hello Steve
+# Hello John
+# Hello Sir Zia
+# Hello Muhammad Qasim
+
+
+
 #  >>>>>>>>
+
+from typing import Dict
+
+def greet(**xyz: Dict[str,str]) -> None:
+    print(xyz)
+
+greet(a="pakistan", b='China')
+{'a': 'pakistan', 'b': 'China'}
+
+
 #  >>>>>>>>
+def xyz(**kargs):
+    print(kargs, type(kargs))
+
+
+xyz(a=7, b=20, c=30, x=1,y=2 , name="Muhammad Qasim")
+{'a': 7, 'b': 20, 'c': 30, 'x': 1, 'y': 2, 'name': 'Muhammad Qasim'} <class 'dict'>
+
+
 #  >>>>>>>>
+
+def my_function(a, b, *abc, **xyz):
+    print(a,b, abc, xyz)
+
+my_function(1,2, 7,9,9,9, c=20, d= 30, x=100)
+1 2 (7, 9, 9, 9) {'c': 20, 'd': 30, 'x': 100}
+
+
 #  >>>>>>>>
+
+def my_function(a: int, b: int, *abc: int, **xyz: int) -> None:
+    print(a, b, abc, xyz)
+
+my_function(1, 2, 7, 9, 9, 9, c=20, d=30, x=100)
+1 2 (7, 9, 9, 9) {'c': 20, 'd': 30, 'x': 100}
+
+
 #  >>>>>>>>
 #  >>>>>>>>
 #  >>>>>>>>
