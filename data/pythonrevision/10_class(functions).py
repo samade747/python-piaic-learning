@@ -392,6 +392,14 @@ my_function(1,2, 7,9,9,9, c=20, d= 30, x=100)
 #  >>>>>>>>
 
 def my_function(a: int, b: int, *abc: int, **xyz: int) -> None:
+/*************  ✨ Windsurf Command ⭐  *************/
+    """
+    This function takes two positional integer arguments, a and b, an arbitrary number of additional integer arguments,
+    packed into a tuple abc, and an arbitrary number of keyword arguments, packed into a dictionary xyz.
+    It prints the values of a, b, abc, and xyz.
+    """
+
+/*******  94296f1b-243d-4764-9abb-0cd6841abaa4  *******/
     print(a, b, abc, xyz)
 
 my_function(1, 2, 7, 9, 9, 9, c=20, d=30, x=100)
