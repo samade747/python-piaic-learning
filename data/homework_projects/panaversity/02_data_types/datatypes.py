@@ -46,3 +46,26 @@ num_float: float = 3.14
 print(type(num_float), "num_float:", num_float)
 
 # output : <class 'float'> num_float: 3.14
+
+# c. Complex (complex)
+
+
+num_complex: complex = 2 + 3j
+
+print(type(num_complex), " num_complex = ", num_complex)  # 
+
+
+z = 3 + 4j
+
+print("Real Part:", z.real)   # Output: 3.0
+print("Imaginary Part:", z.imag)  # Output: 4.0
+
+     
+# Real Part: 3.0
+# Imaginary Part: 4.0
+
+# 2. Boolean (bool)
+
+is_python_fun: bool = True #False
+
+print(type(is_python_fun), " is_python_fun = ", is_python_fun)  # 
