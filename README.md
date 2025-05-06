@@ -16,6 +16,18 @@ https://linktr.ee/samade747
 
 ***samad python projects***  
 
+**Assignment_06_Complete_OOP_Series*** 
+
+
+https://github.com/panaversity/learn-modern-ai-python/blob/main/CLASS_PROJECTS/06_Build_Compose_and_Decorate_A_Complete_Traditional_OOP_Practice_Series/06_Build_Compose_and_Decorate_A_Complete_Traditional_OOP_Practice_Series.md  
+
+
+(assignment_01)  https://github.com/samade747/python-piaic-learning/blob/main/data/Assignment_06_Complete_OOP_Series/assignment_01/app.py
+
+
+
+
+
 ****Project 4 Assignments*** (https://github.com/panaversity/learn-modern-ai-python/tree/main/CLASS_PROJECTS/04_assignments)
 
 homework_projects
