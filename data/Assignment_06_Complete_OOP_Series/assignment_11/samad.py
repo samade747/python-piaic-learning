@@ -7,7 +7,7 @@ class Book():
     #Class variabe bnaiya jo sab books ke liye common hai
     total_books = 0
 
-    def __init__(self, title ):
+    def __init__(self, title):
         self.title = title
         Book.increment_book_count()
 
@@ -26,4 +26,4 @@ book2 = Book("ai learning")
 print(book1.total_books)
 print(book2.total_books)
 
-print("total books" Book.total_books) # class se bhi access kiya ja sakta hai
+print("total books", Book.total_books) # class se bhi access kiya ja sakta hai
