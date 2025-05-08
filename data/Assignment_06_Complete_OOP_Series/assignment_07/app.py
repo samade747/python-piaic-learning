@@ -13,7 +13,7 @@ class Employee():
         self.__ssn = ssn # private variable
 
 
-emp = Employee("samad", 50000$, "+923328222026")
+emp = Employee("samad", 500000, "+923328222026")
 
 print(emp.name) # Accessing public variable
 
