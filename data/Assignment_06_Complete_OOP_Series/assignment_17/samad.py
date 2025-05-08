@@ -3,4 +3,5 @@
 # method returning "Hello from Decorator!". Apply it to a class Person.
 
 
+# class devorator define kiya
 
