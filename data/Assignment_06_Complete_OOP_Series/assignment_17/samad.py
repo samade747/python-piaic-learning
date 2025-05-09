@@ -10,4 +10,4 @@ def add_greeting(cls):
         return f"Hello from {self.name} Greeting from Decorator!"
 
     cls.greet = greet  # class ko greet method add kar rahe hain
-    return cls  # modified class return kar rahe hain 
+    return cls  # modified class return kar rahe hai    
