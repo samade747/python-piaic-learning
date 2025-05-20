@@ -1,7 +1,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=samade747&style=flat-square)
 
   
-linkedin www.linkedin.com/in/samaddeveloper
+linkedin [https://www.linkedin.com/in/webdeveloper-mern-stack-specialist-samaddeveloper-aiagentsdev/](https://www.linkedin.com/in/webdeveloper-mern-stack-specialist-samaddeveloper-aiagentsdev/)
 
 twitter
 https://x.com/samaddeveloper  
@@ -10,8 +10,8 @@ linktree
 https://linktr.ee/samade747
 
  
-
-
+***OOP python learning***  
+https://github.com/samade747/OOP-PRO
     
 
 ***samad python projects***  
